@@ -1,2 +1,7 @@
-package com.codinclub;public class UserRegistrationInterface {
+package com.codinclub;
+
+@FunctionalInterface
+public interface UserRegistrationInterface {
+    public abstract boolean validate(String value) throws InvalidUserException;
+
 }
