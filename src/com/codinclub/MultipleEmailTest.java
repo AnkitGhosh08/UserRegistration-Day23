@@ -57,6 +57,6 @@ public class MultipleEmailTest {
 
     @Test
     public void givenEmailAsVar_ShouldReturnTrueorFalse() throws InvalidUserException {
-        assertEquals(expectedResult, userRegistration.validateEmailID(emailTest));
+        assertEquals(expectedResult, userRegistration.validateEmailID.validate(emailTest));
     }
 }
